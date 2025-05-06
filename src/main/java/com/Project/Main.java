@@ -6,8 +6,6 @@ public class Main {
         Hospital hospital = new Hospital();
         hospital.addNewPatient();
         hospital.getAllPatients();
-        System.out.println("I am using git and gitHub");
-        System.out.println("Changed lol");
-        System.out.println("Somestuff here");
+        
     }
 }
