@@ -8,6 +8,6 @@ package com.Project;
  *
  * @author mt879
  */
-public class Doctor {
+public class Doctor { //write extends person and ovveride the displayInfo method
     
 }
