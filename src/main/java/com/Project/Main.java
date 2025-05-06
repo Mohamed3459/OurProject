@@ -8,5 +8,6 @@ public class Main {
         hospital.getAllPatients();
         System.out.println("I am using git and gitHub");
         System.out.println("Changed lol");
+        System.out.println("Somestuff here");
     }
 }
