@@ -65,8 +65,8 @@ public class Patient extends Person{
         return "Patient{ name= "+this.name+" gender: "+this.gender+" age: "+this.age + " assignedDoctor=" + assignedDoctor + ", medicalHistory=" + medicalHistory +" Id: "+this.id+ '}';
     }
     @Override
-    public void displayInfo(){
-        System.out.println("Name: "+this.name+"\nage: "+this.age+"\ngender: "+this.gender+"\nid: "+this.id+"\nMedical History: "+this.medicalHistory+"\nAssigned Doctor: "+this.assignedDoctor);
+    public String getInfo(){
+        return "Name: "+this.name+"\nage: "+this.age+"\ngender: "+this.gender+"\nid: "+this.id+"\nMedical History: "+this.medicalHistory+"\nAssigned Doctor: "+this.assignedDoctor;
     }
     //The difference btween the toString and the displayInfo is that toString prints the id but displayInfo doesn't
 }

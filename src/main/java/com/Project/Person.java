@@ -12,6 +12,6 @@ public abstract class Person {
         this.age = age;
         this.id = id;
     }
-    public abstract void displayInfo(); //Will be ovverriden in Doctor and Patient
+    public abstract String getInfo(); //Will be ovverriden in Doctor and Patient
     
 }
